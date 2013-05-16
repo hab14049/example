@@ -1,14 +1,14 @@
-import java.util.Scanner;
 
-
-public class main2 {
+public class main6 {
 
 	public static void main(String[] args) {
-		Scanner user_input = new Scanner(System.in);
-		String name;
-		System.out.println("Enter your name");
-		name = user_input.next();
-		System.out.println("Hello "+name+".");
+		String firstname="";
+		String lastname="";
+		
+		String[] name =askname.askname(firstname, lastname);
+		System.out.println("Hello "+name[0]+" "+name[1]+".");
+		
 	}
 
 }
+
